@@ -16,7 +16,7 @@
 
 одностраничный интерактивный лонгрид, рассказывающий историю геометрии — от верёвок египетских землемеров до неевклидовых пространств. тёмный минималистичный дизайн, scroll-анимации, генеративный SVG-фон и уважение к `prefers-reduced-motion`.
 
-контент основан на статье [«геометрия»](https://ru.wikipedia.org/wiki/Геометрия) из русской википедии.
+контент основан на статье [«геометрия»](https://ru.wikipedia.org/wiki/Геометрия) из русской википедии и дополнительных исторических источниках.
 
 ## возможности
 
@@ -87,7 +87,7 @@ npm run build
 
 a single-page interactive longread telling the story of geometry — from the ropes of egyptian surveyors to non-euclidean spaces. dark minimalist design, scroll animations, generative SVG background, and respect for `prefers-reduced-motion`.
 
-content is based on the [«geometry»](https://ru.wikipedia.org/wiki/Геометрия) article from russian wikipedia.
+content is based on the [«geometry»](https://ru.wikipedia.org/wiki/Геометрия) article from russian wikipedia and additional historical sources.
 
 ## features
 

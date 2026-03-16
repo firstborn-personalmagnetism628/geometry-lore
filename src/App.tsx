@@ -6,6 +6,7 @@ import { AncientEgypt } from '@/sections/AncientEgypt'
 import { AncientGreece } from '@/sections/AncientGreece'
 import { Euclid } from '@/sections/Euclid'
 import { MiddleAges } from '@/sections/MiddleAges'
+import { IslamicAge } from '@/sections/IslamicAge'
 import { Descartes } from '@/sections/Descartes'
 import { Lobachevsky } from '@/sections/Lobachevsky'
 import { ModernGeometry } from '@/sections/ModernGeometry'
@@ -43,6 +44,8 @@ function App() {
       <Euclid />
       <Divider />
       <MiddleAges />
+      <Divider />
+      <IslamicAge />
       <FloatingFormulas items={[{ text: '∠α = ∠β', x: 88, y: 100, parallax: 35 }]} />
       <Divider />
       <Descartes />

@@ -1,0 +1,1 @@
+export { IslamicAge } from './IslamicAge'

@@ -111,7 +111,7 @@ export function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {t('footer.source')}
+              wikipedia
             </a>
           </div>
           <a

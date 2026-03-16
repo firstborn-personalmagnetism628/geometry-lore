@@ -12,6 +12,7 @@ const EPOCHS = [
   { id: 'ancient-greece', key: 'greece' },
   { id: 'euclid', key: 'euclid' },
   { id: 'middle-ages', key: 'middleAges' },
+  { id: 'islamic-age', key: 'islamicAge' },
   { id: 'descartes', key: 'descartes' },
   { id: 'lobachevsky', key: 'lobachevsky' },
   { id: 'modern-geometry', key: 'modern' },
