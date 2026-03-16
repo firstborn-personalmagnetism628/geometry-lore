@@ -7,7 +7,7 @@
 [демо](https://vovchensky.github.io/geometry-lore/) · [english](#english)
 
 <a href="https://vovchensky.github.io/geometry-lore/">
-  <img src="./og.png" alt="лор геометрии" width="1200" />
+  <img src="./public/og.png" alt="лор геометрии" width="1200" />
 </a>
 
 </div>
