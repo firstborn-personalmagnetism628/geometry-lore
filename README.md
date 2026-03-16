@@ -6,15 +6,11 @@
 
 [демо](https://vovchensky.github.io/geometry-lore/) · [english](#english)
 
-<br />
-
 <a href="https://vovchensky.github.io/geometry-lore/">
-  <img src="./public/og.png" alt="лор геометрии" width="1200" />
+  <img src="./og.png" alt="лор геометрии" width="1200" />
 </a>
 
 </div>
-
-<br />
 
 ## о проекте
 
@@ -38,13 +34,13 @@
 
 | | |
 |---|---|
-| фреймворк | React 19, TypeScript |
+| фреймворк | React, TypeScript |
 | сборка | Vite |
 | анимации | GSAP, ScrollTrigger |
 | скролл | Lenis |
 | i18n | i18next, react-i18next |
 | стили | SCSS Modules |
-| деплой | GitHub Pages, GitHub Actions |
+| деплой | GitHub Pages |
 
 ## запуск
 
@@ -61,13 +57,15 @@ npm run dev
 npm run build
 ```
 
+## лицензия
+
+[MIT](./LICENSE)
+
 ## автор
 
 [vovchensky](https://github.com/Vovchensky)
 
 ---
-
-<br />
 
 <div align="center">
 
@@ -77,11 +75,13 @@ npm run build
 
 **an interactive history of geometry from ancient egypt to modern day**
 
-[demo](https://vovchensky.github.io/geometry-lore/)
+[demo](https://vovchensky.github.io/geometry-lore/) · [русский](#лор-геометрии)
+
+<a href="https://vovchensky.github.io/geometry-lore/">
+  <img src="./screenshot.png" alt="geometry lore" width="640" />
+</a>
 
 </div>
-
-<br />
 
 ## about
 
@@ -105,13 +105,13 @@ content is based on the [«geometry»](https://ru.wikipedia.org/wiki/Геоме�
 
 | | |
 |---|---|
-| framework | React 19, TypeScript |
+| framework | React, TypeScript |
 | build | Vite |
 | animations | GSAP, ScrollTrigger |
 | scroll | Lenis |
 | i18n | i18next, react-i18next |
 | styles | SCSS Modules |
-| deploy | GitHub Pages, GitHub Actions |
+| deploy | GitHub Pages |
 
 ## getting started
 
@@ -127,6 +127,10 @@ npm run dev
 ```bash
 npm run build
 ```
+
+## license
+
+[MIT](./LICENSE)
 
 ## author
 
