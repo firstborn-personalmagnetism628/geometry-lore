@@ -9,7 +9,7 @@
 <br />
 
 <a href="https://vovchensky.github.io/geometry-lore/">
-  <img src="./public/og.png" alt="лор геометрии" width="640" />
+  <img src="./public/og.png" alt="лор геометрии" width="1200" />
 </a>
 
 </div>
