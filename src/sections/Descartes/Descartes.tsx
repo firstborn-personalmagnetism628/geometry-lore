@@ -76,8 +76,26 @@ export function Descartes() {
   for (let i = 0; i <= 20; i++) {
     const pos = i * 10
     gridLines.push(
-      <line key={`h-${i}`} data-grid-line="" x1="0" y1={pos} x2="200" y2={pos} stroke="#222" strokeWidth="0.3" />,
-      <line key={`v-${i}`} data-grid-line="" x1={pos} y1="0" x2={pos} y2="200" stroke="#222" strokeWidth="0.3" />,
+      <line
+        key={`h-${i}`}
+        data-grid-line=""
+        x1="0"
+        y1={pos}
+        x2="200"
+        y2={pos}
+        stroke="#222"
+        strokeWidth="0.3"
+      />,
+      <line
+        key={`v-${i}`}
+        data-grid-line=""
+        x1={pos}
+        y1="0"
+        x2={pos}
+        y2="200"
+        stroke="#222"
+        strokeWidth="0.3"
+      />,
     )
   }
 
@@ -94,8 +112,24 @@ export function Descartes() {
         <div ref={visualRef} className={styles.visual}>
           <svg ref={gridRef} className={styles.gridSvg} viewBox="0 0 200 200" fill="none">
             {gridLines}
-            <line x1="0" y1="100" x2="200" y2="100" stroke="#edc574" strokeWidth="0.5" opacity="0.4" />
-            <line x1="100" y1="0" x2="100" y2="200" stroke="#edc574" strokeWidth="0.5" opacity="0.4" />
+            <line
+              x1="0"
+              y1="100"
+              x2="200"
+              y2="100"
+              stroke="#edc574"
+              strokeWidth="0.5"
+              opacity="0.4"
+            />
+            <line
+              x1="100"
+              y1="0"
+              x2="100"
+              y2="200"
+              stroke="#edc574"
+              strokeWidth="0.5"
+              opacity="0.4"
+            />
             <path
               className={styles.curve}
               d="M 20 180 Q 60 160 80 130 Q 100 100 120 60 Q 140 20 180 10"
@@ -103,8 +137,12 @@ export function Descartes() {
               strokeWidth="1.5"
               opacity="0.8"
             />
-            <text x="190" y="98" fill="#666" fontSize="6">x</text>
-            <text x="103" y="10" fill="#666" fontSize="6">y</text>
+            <text x="190" y="98" fill="#666" fontSize="6">
+              x
+            </text>
+            <text x="103" y="10" fill="#666" fontSize="6">
+              y
+            </text>
           </svg>
         </div>
       </div>

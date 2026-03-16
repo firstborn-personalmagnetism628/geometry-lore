@@ -36,38 +36,22 @@ function App() {
       <WhatIsGeometry />
       <Divider />
       <AncientEgypt />
-      <FloatingFormulas
-        items={[
-          { text: '∑Δ', x: 82, y: 120 },
-        ]}
-      />
+      <FloatingFormulas items={[{ text: '∑Δ', x: 82, y: 120 }]} />
       <Divider />
       <AncientGreece />
       <Divider />
       <Euclid />
       <Divider />
       <MiddleAges />
-      <FloatingFormulas
-        items={[
-          { text: '∠α = ∠β', x: 88, y: 100, parallax: 35 },
-        ]}
-      />
+      <FloatingFormulas items={[{ text: '∠α = ∠β', x: 88, y: 100, parallax: 35 }]} />
       <Divider />
       <Descartes />
       <Divider />
       <Lobachevsky />
-      <FloatingFormulas
-        items={[
-          { text: '∫', x: 10, y: 80, parallax: 50 },
-        ]}
-      />
+      <FloatingFormulas items={[{ text: '∫', x: 10, y: 80, parallax: 50 }]} />
       <Divider />
       <ModernGeometry />
-      <FloatingFormulas
-        items={[
-          { text: 'S = πr²', x: 85, y: 100, parallax: 40 },
-        ]}
-      />
+      <FloatingFormulas items={[{ text: 'S = πr²', x: 85, y: 100, parallax: 40 }]} />
       <Divider />
       <Philosophy />
       <Footer />

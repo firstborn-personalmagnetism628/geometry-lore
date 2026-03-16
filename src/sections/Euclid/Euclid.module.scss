@@ -14,7 +14,9 @@
   min-height: 70px;
   background: $color-bg-secondary;
   border-left: 2px solid transparent;
-  transition: border-color 0.3s ease, background-color 0.3s ease;
+  transition:
+    border-color 0.3s ease,
+    background-color 0.3s ease;
   position: relative;
 
   &:first-child {

@@ -30,7 +30,9 @@ export function AncientEgypt() {
           <SectionTitle data-animate="up">{t('ancientEgypt.title')}</SectionTitle>
           <Paragraph data-animate="up">{t('ancientEgypt.p1')}</Paragraph>
           <Paragraph data-animate="up">{t('ancientEgypt.p2')}</Paragraph>
-          <Formula decorative className={styles.bgFormula}>a² + b² = c²</Formula>
+          <Formula decorative className={styles.bgFormula}>
+            a² + b² = c²
+          </Formula>
         </div>
 
         <div ref={visualRef} className={styles.visual}>
@@ -38,10 +40,21 @@ export function AncientEgypt() {
             <path d="M 30 170 L 170 170" stroke="#edc574" strokeWidth="1" opacity="0.6" />
             <path d="M 170 170 L 170 50" stroke="#edc574" strokeWidth="1" opacity="0.6" />
             <path d="M 170 50 L 30 170" stroke="#edc574" strokeWidth="1" opacity="0.6" />
-            <path d="M 155 170 L 155 155 L 170 155" stroke="#edc574" strokeWidth="0.5" opacity="0.4" />
-            <text x="100" y="188" fill="#808080" fontSize="10" textAnchor="middle">4</text>
-            <text x="182" y="114" fill="#808080" fontSize="10">3</text>
-            <text x="85" y="105" fill="#808080" fontSize="10" textAnchor="end">5</text>
+            <path
+              d="M 155 170 L 155 155 L 170 155"
+              stroke="#edc574"
+              strokeWidth="0.5"
+              opacity="0.4"
+            />
+            <text x="100" y="188" fill="#808080" fontSize="10" textAnchor="middle">
+              4
+            </text>
+            <text x="182" y="114" fill="#808080" fontSize="10">
+              3
+            </text>
+            <text x="85" y="105" fill="#808080" fontSize="10" textAnchor="end">
+              5
+            </text>
           </svg>
         </div>
       </div>

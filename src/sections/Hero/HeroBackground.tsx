@@ -61,10 +61,7 @@ function generateShapes(count: number): ShapeData[] {
     const type = types[randInt(0, types.length - 1)]
     const sw = rand(0.08, 0.22)
 
-    const d =
-      type === 0
-        ? circlePath(cx, cy, r)
-        : polygon(cx, cy, r, type, rand(-Math.PI, Math.PI))
+    const d = type === 0 ? circlePath(cx, cy, r) : polygon(cx, cy, r, type, rand(-Math.PI, Math.PI))
 
     shapes.push({ d, sw })
   }

@@ -41,12 +41,7 @@ export function LanguageSwitcher() {
 
   return (
     <>
-      <button
-        className={styles.switcher}
-        onClick={toggle}
-        type="button"
-        disabled={switching}
-      >
+      <button className={styles.switcher} onClick={toggle} type="button" disabled={switching}>
         {next.toUpperCase()}
       </button>
       <div ref={overlayRef} className={styles.overlay} />

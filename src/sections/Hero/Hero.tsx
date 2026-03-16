@@ -78,11 +78,7 @@ export function Hero() {
     <header className={styles.hero}>
       <HeroBackground />
       <div className={styles.content}>
-        <h1
-          ref={titleRef}
-          className={styles.title}
-          onClick={handleTitleClick}
-        >
+        <h1 ref={titleRef} className={styles.title} onClick={handleTitleClick}>
           {t('hero.line1')}
           <br />
           {t('hero.line2')}

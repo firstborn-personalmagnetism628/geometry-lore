@@ -2,8 +2,7 @@ const en = {
   hero: {
     line1: 'geometry',
     line2: 'lore',
-    subtitle:
-      'from the ropes of egyptian surveyors to spaces where parallel lines intersect',
+    subtitle: 'from the ropes of egyptian surveyors to spaces where parallel lines intersect',
   },
   whatIsGeometry: {
     title: 'what is geometry',
@@ -27,7 +26,7 @@ const en = {
   },
   euclid: {
     title: "euclid and the 'elements'",
-    p1: "five postulates. from them — all of classical geometry. essentially, these are the rules of the game: what you can do with an ideal compass and an ideal straightedge. from these simple rules follow hundreds of theorems we learn in school.",
+    p1: 'five postulates. from them — all of classical geometry. essentially, these are the rules of the game: what you can do with an ideal compass and an ideal straightedge. from these simple rules follow hundreds of theorems we learn in school.',
     p2: "pay attention to the fifth postulate. it's longer, more complex, and less obvious than the rest. for two thousand years mathematicians tried to derive it from the first four. no one succeeded. and that's no coincidence — it would later turn out that you can replace it with the opposite statement, and geometry still works. but more on that later.",
     post1: 'any two points can be connected by a straight line',
     hint1: 'through two points — exactly one line',
@@ -37,12 +36,13 @@ const en = {
     hint3: 'the compass works everywhere',
     post4: 'all right angles are equal to each other',
     hint4: 'an angle is an absolute quantity',
-    post5: 'through a point outside a line, no more than one line can be drawn that does not intersect the given line',
+    post5:
+      'through a point outside a line, no more than one line can be drawn that does not intersect the given line',
     hint5: 'the only parallel. or is it?',
   },
   middleAges: {
     title: 'the middle ages',
-    p1: "the middle ages contributed little to geometry. geometry was considered one of the seven liberal arts — fifth in the order of study, after grammar, rhetoric, dialectic, and arithmetic. it was personified by a woman holding a globe and compass, accompanied, of course, by euclid.",
+    p1: 'the middle ages contributed little to geometry. geometry was considered one of the seven liberal arts — fifth in the order of study, after grammar, rhetoric, dialectic, and arithmetic. it was personified by a woman holding a globe and compass, accompanied, of course, by euclid.',
     p2: 'science awaited the next breakthrough. and it came from an unexpected place — from a philosopher who decided to reinvent everything.',
   },
   descartes: {

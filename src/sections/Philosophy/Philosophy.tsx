@@ -34,8 +34,24 @@ export function Philosophy() {
         <div ref={decorRef} className={styles.decor}>
           <svg viewBox="0 0 100 100" fill="none">
             <circle cx="50" cy="50" r="3" fill="#edc574" opacity="0.1" />
-            <circle cx="50" cy="50" r="18" stroke="#edc574" strokeWidth="0.3" strokeDasharray="2 4" opacity="0.06" />
-            <circle cx="50" cy="50" r="38" stroke="#edc574" strokeWidth="0.2" strokeDasharray="1 6" opacity="0.04" />
+            <circle
+              cx="50"
+              cy="50"
+              r="18"
+              stroke="#edc574"
+              strokeWidth="0.3"
+              strokeDasharray="2 4"
+              opacity="0.06"
+            />
+            <circle
+              cx="50"
+              cy="50"
+              r="38"
+              stroke="#edc574"
+              strokeWidth="0.2"
+              strokeDasharray="1 6"
+              opacity="0.04"
+            />
           </svg>
         </div>
       </div>
